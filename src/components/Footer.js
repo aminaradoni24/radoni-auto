@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 const Footer = () => {
   return (
     <Container>
       <h5>
         &copy; {new Date().getFullYear()}
-        <span> ComfySloth </span>
+        <span> RadoniAuto </span>
       </h5>
       <h5>All rights reserved</h5>
     </Container>

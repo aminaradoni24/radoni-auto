@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { PageHero } from '../components'
-import aboutImg from '../assets/hero-bcg.jpeg'
+import React from "react"
+import styled from "styled-components"
+import { PageHero } from "../components"
+import aboutImg from "../assets/hero-bcg.jpeg"
 const AboutPage = () => {
   return (
     <main>
@@ -14,16 +14,13 @@ const AboutPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            accusantium sapiente tempora sed dolore esse deserunt eaque
-            excepturi, delectus error accusamus vel eligendi, omnis beatae.
-            Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-            dolore, obcaecati incidunt sequi blanditiis est exercitationem
-            molestiae delectus saepe odio eligendi modi porro eaque in libero
-            minus unde sapiente consectetur architecto. Ullam rerum, nemo iste
-            ex, eaque perspiciatis nisi, eum totam velit saepe sed quos
-            similique amet. Ex, voluptate accusamus nesciunt totam vitae esse
-            iste.
+            Radoni Auto was born out of a passion for excellence in the
+            automotive industry. Founded in 2000 by automotive enthusiast
+            Shkelzen Radoni, the company began with a single goal: to redefine
+            the car buying experience by offering unparalleled customer service
+            and a diverse selection of high-quality vehicles. Shkelzen’s vision
+            was to create a dealership where customers feel like family, and
+            every visit is a seamless, enjoyable experience.
           </p>
         </article>
       </Wrapper>

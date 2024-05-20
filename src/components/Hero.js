@@ -77,12 +77,13 @@ const Wrapper = styled.section`
       transform: translateX(-50%);
       border-radius: var(--radius);
     }
+
     .img-container::before {
       content: "";
       position: absolute;
       width: 10%;
       height: 80%;
-      background: var(--clr-primary-9);
+      background: var(--clr-primary-2);
       bottom: 0%;
       left: -8%;
       border-radius: var(--radius);

@@ -14,11 +14,16 @@ const Contact = () => {
             Don't miss out on the opportunity to elevate your automotive
             experience – subscribe today!
           </p>
-          <form className='contact-form'>
+          <form
+            className='contact-form'
+            action='https://formspree.io/f/xjvndagl'
+            method='POST'
+          >
             <input
               type='email'
               className='form-input'
               placeholder='enter email'
+              name='_replyto'
             />
             <button type='submit' className='submit-btn'>
               subscribe

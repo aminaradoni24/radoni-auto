@@ -1,15 +1,18 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 const Contact = () => {
   return (
     <Wrapper>
       <div className='section-center'>
-        <h3>Join our newsletter and get 20% off</h3>
+        <h3>Rev Up Your Inbox: Subscribe to Radoni Auto's Newsletter!</h3>
         <div className='content'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            sint unde quaerat ratione soluta veniam provident adipisci cumque
-            eveniet tempore?
+            Sign up for the Radoni Auto newsletter and gain access to insider
+            tips, automotive news, special promotions, and exclusive discounts
+            delivered straight to your inbox. Stay ahead of the curve with our
+            latest vehicle releases, maintenance tips, and industry insights.
+            Don't miss out on the opportunity to elevate your automotive
+            experience – subscribe today!
           </p>
           <form className='contact-form'>
             <input

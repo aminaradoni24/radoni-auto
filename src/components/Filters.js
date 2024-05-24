@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import { useFilterContext } from '../context/filter_context'
-import { getUniqueValues, formatPrice } from '../utils/helpers'
-import { FaCheck } from 'react-icons/fa'
+import React from "react"
+import styled from "styled-components"
+import { useFilterContext } from "../context/filter_context"
+import { getUniqueValues, formatPrice } from "../utils/helpers"
+import { FaCheck } from "react-icons/fa"
 
 const Filters = () => {
   const {
@@ -21,9 +21,9 @@ const Filters = () => {
     clearFilters,
   } = useFilterContext()
 
-  const categories = getUniqueValues(all_products, 'category')
-  const companies = getUniqueValues(all_products, 'company')
-  const colors = getUniqueValues(all_products, 'colors')
+  const categories = getUniqueValues(all_products, "category")
+  const companies = getUniqueValues(all_products, "company")
+  const colors = getUniqueValues(all_products, "colors")
   return (
     <Wrapper>
       <div className='content'>
@@ -52,7 +52,7 @@ const Filters = () => {
                     type='button'
                     name='category'
                     className={`${
-                      category === c.toLowerCase() ? 'active' : null
+                      category === c.toLowerCase() ? "active" : null
                     }`}
                   >
                     {c}
@@ -86,7 +86,7 @@ const Filters = () => {
             <h5>colors</h5>
             <div className='colors'>
               {colors.map((c, index) => {
-                if (c === 'all') {
+                if (c === "all") {
                   return (
                     <button
                       key={index}
@@ -94,7 +94,7 @@ const Filters = () => {
                       onClick={updateFilters}
                       data-color='all'
                       className={`${
-                        color === 'all' ? 'all-btn active' : 'all-btn'
+                        color === "all" ? "all-btn active" : "all-btn"
                       }`}
                     >
                       all
@@ -107,7 +107,7 @@ const Filters = () => {
                     name='color'
                     style={{ background: c }}
                     className={`${
-                      color === c ? 'color-btn active' : 'color-btn'
+                      color === c ? "color-btn active" : "color-btn"
                     }`}
                     data-color={c}
                     onClick={updateFilters}

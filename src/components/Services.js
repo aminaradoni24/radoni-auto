@@ -1,18 +1,25 @@
-import React from 'react'
-import styled from 'styled-components'
-import { services } from '../utils/constants'
+import React from "react"
+import styled from "styled-components"
+import { services } from "../utils/constants"
 const Services = () => {
   return (
     <Wrapper>
       <div className='section-center'>
         <article className='header'>
           <h3>
-            custom furniture <br /> built only for you
+            Your Premier Destination
+            <br />
+            for Quality Vehicles
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum debitis consectetur reprehenderit non aliquam voluptates
-            dolore aut vero consequuntur.
+            Your trusted partner in finding the perfect vehicle. Quality cars,
+            exceptional service, and unbeatable value. At Radoni Auto, we
+            prioritize your satisfaction and peace of mind. Our dedicated team
+            is committed to making your car-buying experience smooth and
+            enjoyable, from start to finish. With a focus on transparency and
+            integrity, we ensure you drive away with confidence and a smile.
+            Discover the difference with Radoni Auto – where your automotive
+            dreams become reality.
           </p>
         </article>
         <div className='services-center'>
